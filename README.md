@@ -16,7 +16,7 @@
 - 變數畫面
 ![variables](img/variables.png)
 - 修改變數畫面
-- ![variables-edit](img/variables-edit.png)
+![variables-edit](img/variables-edit.png)
 
 ### 規則新增、修改
 - 規則表格：紀錄了現有的所有規則
