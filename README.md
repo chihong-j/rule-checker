@@ -6,7 +6,8 @@
 
 ## 功能說明
 ### 取得在製品分布的長條圖
-- 後端會自動取得當下的資料回傳，並在前端利用 recharts 畫出堆疊的長條圖
+- 讓使用者了解工廠現有的製程狀況
+- 後端會自動取得當下的資料回傳，並在前端利用 recharts 畫出堆疊的長條圖，同時支援多張長條圖左右切換
 - 長條圖畫面
 ![barchart](img/barchart.png)
 
@@ -18,13 +19,19 @@
 - ![variables-edit](img/variables-edit.png)
 
 ### 規則新增、修改
-- 規則為二元樹狀流程圖，每一個節點都是一個判斷式，分支則為 true false statement，而流程圖最末端為 comment
 - 規則表格：紀錄了現有的所有規則
-- ![rules](img/rules.png)
+![rules](img/rules.png)
 - 規則描述
 ![rules-desc](img/rules-desc.png)
+- 規則為二元樹狀流程圖，每一個節點都是一個判斷式，使用者可以任意新增、修改、刪除判斷式
+- 流程圖中判斷式的分支為一個 true false statement
+- 流程圖最末端為 comment
 - 規則流程圖
 ![flowchart](img/flowchart.png)
+- 使用者可以任意新增、修改、刪除判斷式，或是將節點轉為 comment
+- 判斷式中提供使用者小鍵盤以及變數選取工具，讓使用者自行拼組一個判斷式
+- 判斷式修改
+![expression](img/expression.png)
 
 ### 執行規則檢查
 - 執行規則檢查時，將使用者勾選的所有規則進行檢查，並一一顯示相對應的檢查結果（comment）
