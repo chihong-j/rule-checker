@@ -24,9 +24,7 @@
 - 透過註冊與登入功能，使用者可以在自己的帳號創建屬於自己的規則
 - 透過主控台管理，使用者可以將他人創建的規則加進自己的帳號當中進行管理
 - 註冊、登入、主控台登入畫面
-![signup](img/signup.png)
-![login](img/login.png)
-![admin-login](img/admin-login.png)
+![signup](img/signup.png)![login](img/login.png)![admin-login](img/admin-login.png)
 - 主控台挑選規則畫面
 ![pick-rule](img/pick-rule.png)
 - 挑選完規則後，回到個人頁面的畫面
